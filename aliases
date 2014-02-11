@@ -1,4 +1,6 @@
-alias gvim="gvim 2>/dev/null"
-alias svim="sudo gvim 2>/dev/null"
+alias gv="gvim 2>/dev/null"
+alias sv="sudo gvim 2>/dev/null"
 alias slampp="sudo /opt/lampp/lampp"
 alias mysql="sudo /opt/lampp/bin/mysql"
+alias ga="git add"
+alias gs="git status"
