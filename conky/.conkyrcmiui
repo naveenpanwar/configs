@@ -29,7 +29,7 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_argb_visual yes
 own_window_argb_value 0
 
-alignment mr
+alignment tr
 gap_x 00
 gap_y 00
 #minimum_size 310 100
