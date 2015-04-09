@@ -16,6 +16,9 @@ au FileType python,perl setlocal expandtab
 au FileType gitcommit set textwidth=72
 " ]]
 set noswapfile
-:set guioptions-=T  "remove toolbar
+set guioptions-=T  "remove toolbar
+set guioptions-=m
+set guioptions-=r
+set guioptions-=L
 
-:colorscheme badwolf
+colorscheme badwolf

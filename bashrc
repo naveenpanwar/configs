@@ -112,3 +112,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH=/google_appengine/:$PATH
+export APXS=/usr/local/apache2/bin/apxs
+export PATH=/usr/local/apache2/bin/:$PATH
+export MANPATH=/usr/local/pgsql/man:$MANPATH
+export LD_LIBRARY_PATH=/usr/local/pgsql/lib
+export PGDATA=/usr/local/pgsql/data
