@@ -119,3 +119,5 @@ export PATH=/usr/local/apache2/bin/:$PATH
 export MANPATH=/usr/local/pgsql/man:$MANPATH
 export LD_LIBRARY_PATH=/usr/local/pgsql/lib
 export PGDATA=/usr/local/pgsql/data
+
+export PATH=/usr/lib/jvm/java-7-openjdk-i386/bin/:$PATH
