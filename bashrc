@@ -121,3 +121,14 @@ export LD_LIBRARY_PATH=/usr/local/pgsql/lib
 export PGDATA=/usr/local/pgsql/data
 
 export PATH=/usr/lib/jvm/java-7-openjdk-i386/bin/:$PATH
+
+# for virtualenv wrapper
+export WORKON_HOME=$HOME/Envs
+export PROJECT_HOME=$HOME/Devel
+source $HOME/.local/bin/virtualenvwrapper.sh
+
+# for java
+export JAVA_HOME=/usr/lib/java/jdk1.8.0_60
+set PATH="$PATH:$JAVA_HOME/bin"
+export PATH
+export PATH=${PATH}:${HOME}/Android/Sdk/tools:${HOME}/Android/Sdk/platform-tools:${HOME}/.local/bin
