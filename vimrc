@@ -21,7 +21,8 @@ set guioptions-=m
 set guioptions-=r
 set guioptions-=L
 
-colorscheme badwolf
+set background=dark
+colorscheme solarized
 
 " plugin for syntax
 set statusline+=%#warningmsg#
