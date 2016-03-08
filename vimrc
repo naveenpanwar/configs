@@ -35,6 +35,13 @@ let g:syntastic_check_on_wq = 0
 
 " plugin for autocomplete
 let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#enable_ignore_case = 1
+let g:neocomplete#enable_smart_case = 1
+let g:neocomplete#enable_auto_select = 1
+let g:neocomplete#enable_auto_delimiter = 1
+
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " settings for css3-plugin
 augroup VimCSS3Syntax
@@ -42,3 +49,19 @@ augroup VimCSS3Syntax
 
   autocmd FileType css setlocal iskeyword+=-
 augroup END
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsListSnippets="<c-l>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+" Nerd Tree on start if no file is selected
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Nerd Tree toggle
+map <C-n> :NERDTreeToggle<CR>
