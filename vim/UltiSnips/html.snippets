@@ -1,0 +1,11 @@
+snippet ex_temp "Extending Template of Django" b
+{% extends 'app1/base.html' %}
+{% load staticfiles %}
+{% block head %}
+	<title>
+		SPICS: ${1:Business} | Web Solutions
+	</title>
+{% endblock %}
+{% block main %}
+{% endblock %}
+endsnippet
