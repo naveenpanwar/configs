@@ -66,3 +66,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Nerd Tree toggle
 map <C-n> :NERDTreeToggle<CR>
+
+" folding
+set foldmethod=indent
+set foldlevel=99
