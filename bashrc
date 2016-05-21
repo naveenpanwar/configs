@@ -125,7 +125,7 @@ export PATH=/usr/lib/jvm/java-7-openjdk-i386/bin/:$PATH
 # for virtualenv wrapper
 export WORKON_HOME=$HOME/Envs
 export PROJECT_HOME=$HOME/Devel
-source $HOME/.local/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 # for java
 export JAVA_HOME=/usr/lib/java/jdk1.8.0_60
