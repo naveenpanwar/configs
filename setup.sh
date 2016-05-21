@@ -1,6 +1,6 @@
 #!/bin/sh
-ln -s ~/Dropbox/dotfiles/vim ~/.vim
-ln -s ~/Dropbox/dotfiles/aliases ~/.bash_aliases
-ln -s ~/Dropbox/dotfiles/bashrc ~/.bashrc
-ln -s ~/Dropbox/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Dropbox/dotfiles/vimrc ~/.vimrc
+ln -s ~/Dropbox/configs/vim ~/.vim
+ln -s ~/Dropbox/configs/aliases ~/.bash_aliases
+ln -s ~/Dropbox/configs/bashrc ~/.bashrc
+ln -s ~/Dropbox/configs/gitconfig ~/.gitconfig
+ln -s ~/Dropbox/configs/vimrc ~/.vimrc
