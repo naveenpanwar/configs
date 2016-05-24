@@ -10,6 +10,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+set number
 
 au FileType ruby,coffee,cucumber,eruby,haml,sass,scss,yaml,markdown,vim,handlebars,jade,javascript setlocal expandtab tabstop=2 shiftwidth=2
 au FileType python,perl setlocal expandtab
