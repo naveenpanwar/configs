@@ -1,6 +1,11 @@
+set encoding=utf-8
 syntax on
 filetype plugin indent on
 set modeline
+if has('gui_running')
+  set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10
+endif
+
 
 execute pathogen#infect()
 
@@ -74,25 +79,12 @@ set foldlevel=99
 
 " Configs for airline
 let g:airline_powerline_fonts = 1
+let g:airline_theme='powerlineish'
 set laststatus=2
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
-
-" unicode symbols
-let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
-let g:airline_symbols.linenr = '␊'
-let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.branch = '⎇'
-let g:airline_symbols.paste = 'ρ'
-let g:airline_symbols.paste = 'Þ'
-let g:airline_symbols.paste = '∥'
-let g:airline_symbols.whitespace = 'Ξ'
 
 " airline symbols
 let g:airline_left_sep = ''
