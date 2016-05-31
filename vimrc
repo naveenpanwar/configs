@@ -75,12 +75,16 @@ map <C-n> :NERDTreeToggle<CR>
 
 " folding
 set foldmethod=indent
-set foldlevel=99
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 
 " Configs for airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
