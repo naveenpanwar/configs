@@ -75,7 +75,9 @@ map <C-n> :NERDTreeToggle<CR>
 
 " folding
 set foldmethod=indent
-set foldlevel=99
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 
 " Configs for airline
 let g:airline_powerline_fonts = 1
