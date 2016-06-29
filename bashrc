@@ -113,14 +113,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$HOME/google_appengine/:$PATH
-export APXS=/usr/local/apache2/bin/apxs
-export PATH=/usr/local/apache2/bin/:$PATH
-export MANPATH=/usr/local/pgsql/man:$MANPATH
-export LD_LIBRARY_PATH=/usr/local/pgsql/lib
-export PGDATA=/usr/local/pgsql/data
+# Settings for manual install
+#export PATH=$HOME/google_appengine/:$PATH
+#export APXS=/usr/local/apache2/bin/apxs
+#export PATH=/usr/local/apache2/bin/:$PATH
+#export MANPATH=/usr/local/pgsql/man:$MANPATH
+#export LD_LIBRARY_PATH=/usr/local/pgsql/lib
+#export PGDATA=/usr/local/pgsql/data
 
-export PATH=/usr/lib/jvm/java-7-openjdk-i386/bin/:$PATH
+export PATH=/usr/lib/jvm/java-9-openjdk-amd64/bin/:$PATH
 
 # for virtualenv wrapper
 export WORKON_HOME=$HOME/Envs
