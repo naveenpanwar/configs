@@ -121,15 +121,11 @@ fi
 #export LD_LIBRARY_PATH=/usr/local/pgsql/lib
 #export PGDATA=/usr/local/pgsql/data
 
-export PATH=/usr/lib/jvm/java-9-openjdk-amd64/bin/:$PATH
-
 # for virtualenv wrapper
 export WORKON_HOME=$HOME/Envs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
 
 # for java
-export JAVA_HOME=/usr/lib/java/jdk1.8.0_60
-set PATH="$PATH:$JAVA_HOME/bin"
-export PATH
-export PATH=${PATH}:${HOME}/Android/Sdk/tools:${HOME}/Android/Sdk/platform-tools:${HOME}/.local/bin
+export JAVA_HOME=/usr/lib/jvm/java-1.9.0-openjdk-amd64
+export PATH=${PATH}:${HOME}/Android/Sdk/tools:${HOME}/Android/Sdk/platform-tools:${HOME}/.local/bin:${JAVA_HOME}/bin
