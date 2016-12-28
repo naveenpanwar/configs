@@ -128,4 +128,4 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # for java
 export JAVA_HOME=/usr/lib/jvm/java-1.9.0-openjdk-amd64
-export PATH=${PATH}:${HOME}/Android/Sdk/tools:${HOME}/Android/Sdk/platform-tools:${HOME}/.local/bin:${JAVA_HOME}/bin
+export PATH=${PATH}:${HOME}/Android/Sdk/tools:${HOME}/Android/Sdk/platform-tools:${HOME}/.local/bin:${JAVA_HOME}/bin:/bin/geckodriver
