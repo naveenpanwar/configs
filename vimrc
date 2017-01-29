@@ -6,6 +6,8 @@ if has('gui_running')
   set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10
 endif
 
+" php indentation
+let PHP_removeCRwhenUnix = 1
 
 execute pathogen#infect()
 
@@ -17,7 +19,7 @@ set shiftwidth=4
 set noexpandtab
 set number
 
-au FileType ruby,coffee,cucumber,eruby,haml,sass,scss,yaml,markdown,vim,handlebars,jade,javascript setlocal expandtab tabstop=2 shiftwidth=2
+au FileType ruby,coffee,cucumber,eruby,haml,sass,scss,yaml,markdown,vim,handlebars,jade,javascript,php setlocal expandtab tabstop=2 shiftwidth=2
 au FileType python,perl setlocal expandtab
 au FileType gitcommit set textwidth=72
 " ]]
