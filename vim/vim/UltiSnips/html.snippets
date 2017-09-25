@@ -1,0 +1,21 @@
+snippet exp_base "Extending Template of Django" b
+{% extends 'app1/base.html' %}
+{% load staticfiles %}
+{% block head %}
+	<title>
+		SPICS: $1 | $2
+	</title>
+{% endblock %}
+{% block main %}
+{% endblock %}
+endsnippet
+
+snippet html "Basic html head" b
+<!DOCTYPE html>
+<html lang='en' charset='utf-8'>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
+endsnippet
