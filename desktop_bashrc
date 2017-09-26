@@ -120,5 +120,5 @@ fi
 export PATH=$HOME/.local/bin:$PATH
 
 export WORKON_HOME=$HOME/Envs
-export PROJECT_HOME=$HOME/Projects
+export PROJECT_HOME=$HOME/Dropbox/Projects
 source $HOME/.local/bin/virtualenvwrapper.sh
