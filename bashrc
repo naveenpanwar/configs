@@ -123,7 +123,7 @@ fi
 
 # for virtualenv wrapper
 export WORKON_HOME=$HOME/Envs
-export PROJECT_HOME=$HOME/Devel
+export PROJECT_HOME=$HOME/Dropbox/Projects/
 source /usr/local/bin/virtualenvwrapper.sh
 
 # for java
