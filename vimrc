@@ -1,6 +1,7 @@
 set encoding=utf-8
 syntax on
 filetype plugin indent on
+set foldmethod=syntax
 set modeline
 if has('gui_running')
   set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10
@@ -14,7 +15,7 @@ execute pathogen#infect()
 " Indentation [[
 
 set tabstop=4
-set softtabstop=4
+set softtabstop=0
 set shiftwidth=4
 set noexpandtab
 set number
